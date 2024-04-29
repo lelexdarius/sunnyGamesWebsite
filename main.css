@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 30px;
+    font-family: Papyrus;
+    color: maroon;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+p{
+    font-family: 'Courier New';
+    text-align:justify;
+    width: 50%;
+}
+.a1{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  .row{
+    margin-top: 50px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Courier New';
+    text-align:justify;
+    width: 50%;
+  }
+
+
+
+
+  .column01 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 350px; /* Should be removed. Only for demonstration */
+  }
+  .row01{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Clear floats after the columns */
+  .row01:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+  }
